@@ -1,27 +1,30 @@
+/* remove default browser-enforced styles */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* apply styles to <body> */
 body {
     background-color: #d9dcd6;
 }
+/* apply styles to <header> */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
+/* apply styles to <header> h1's */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* apply style to "seo" part of <header> h1 */
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* apply styles to <header> nav */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -29,25 +32,25 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* apply styles to <header> nav and ul */
 header nav ul {
     list-style-type: none;
 }
-
+/* apply styles to <header> nav, ul, and li */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* apply styles to all a (anchors) */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* apply styles to all p (paragraphs) */
 p {
     font-size: 16px;
 }
-
+/* hero styles */
 .hero {
     height: 800px;
     width: 100%;
@@ -56,24 +59,24 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* apply style to left-floated elements */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* apply style to right-floated elements */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* apply style to content section */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
+/* apply style to benefits side panel */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -131,6 +134,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* end benefits side panel styles */
 
 .search-engine-optimization {
     margin-bottom: 20px;
